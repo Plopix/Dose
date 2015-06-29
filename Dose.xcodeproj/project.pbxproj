@@ -7,9 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F02DFBF1B3CD4DC00F005AF /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02DFBE1B3CD4DC00F005AF /* LoggerProtocol.swift */; };
+		7F02DFC01B3CD4DC00F005AF /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02DFBE1B3CD4DC00F005AF /* LoggerProtocol.swift */; };
+		7F02DFC21B3D002700F005AF /* SimpleDeviceInformationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02DFC11B3D002700F005AF /* SimpleDeviceInformationProvider.swift */; };
+		7F02DFC31B3D002700F005AF /* SimpleDeviceInformationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02DFC11B3D002700F005AF /* SimpleDeviceInformationProvider.swift */; };
+		7F29ACD31B3BC83600A8F913 /* SimpleLoggerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACD21B3BC83600A8F913 /* SimpleLoggerProvider.swift */; };
+		7F29ACD41B3BC83600A8F913 /* SimpleLoggerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACD21B3BC83600A8F913 /* SimpleLoggerProvider.swift */; };
+		7F29ACD71B3BC84A00A8F913 /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACD51B3BC84A00A8F913 /* SimpleLogger.swift */; };
+		7F29ACD81B3BC84A00A8F913 /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACD51B3BC84A00A8F913 /* SimpleLogger.swift */; };
+		7F29ACD91B3BC84A00A8F913 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACD61B3BC84A00A8F913 /* DeviceInformation.swift */; };
+		7F29ACDA1B3BC84A00A8F913 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACD61B3BC84A00A8F913 /* DeviceInformation.swift */; };
+		7F29ACDD1B3BC86400A8F913 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACDB1B3BC86400A8F913 /* Container.swift */; };
+		7F29ACDE1B3BC86400A8F913 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACDB1B3BC86400A8F913 /* Container.swift */; };
+		7F29ACDF1B3BC86400A8F913 /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACDC1B3BC86400A8F913 /* ServiceProviderProtocol.swift */; };
+		7F29ACE01B3BC86400A8F913 /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29ACDC1B3BC86400A8F913 /* ServiceProviderProtocol.swift */; };
+		7F61D6281B3FD05D00493CF4 /* Service2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61D6271B3FD05D00493CF4 /* Service2.swift */; };
+		7F61D62A1B3FD07A00493CF4 /* services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F61D6291B3FD07A00493CF4 /* services.plist */; };
+		7F61D62C1B3FD39300493CF4 /* TKernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61D62B1B3FD39300493CF4 /* TKernel.swift */; };
+		7F61D62E1B40DD5200493CF4 /* Service3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61D62D1B40DD5200493CF4 /* Service3.swift */; };
 		7F649B6B1B3BC68900000AF4 /* Dose.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F649B6A1B3BC68900000AF4 /* Dose.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F649B711B3BC68900000AF4 /* Dose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F649B651B3BC68900000AF4 /* Dose.framework */; };
-		7F649B781B3BC68900000AF4 /* DoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F649B771B3BC68900000AF4 /* DoseTests.swift */; };
+		7F649B781B3BC68900000AF4 /* DoseContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F649B771B3BC68900000AF4 /* DoseContainerTests.swift */; };
+		7FB778A11B3FC09900DB5AAA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB778A01B3FC09900DB5AAA /* Service.swift */; };
+		7FB778A21B3FC09900DB5AAA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB778A01B3FC09900DB5AAA /* Service.swift */; };
+		7FF1ED5E1B3BDABA0060F418 /* ExampleServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1ED5C1B3BDABA0060F418 /* ExampleServiceProvider.swift */; };
+		7FF1ED5F1B3BDABA0060F418 /* Service1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1ED5D1B3BDABA0060F418 /* Service1.swift */; };
+		7FF4F2331B3E139E001A30A6 /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4F2321B3E139E001A30A6 /* Kernel.swift */; };
+		7FF4F2341B3E139E001A30A6 /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4F2321B3E139E001A30A6 /* Kernel.swift */; };
+		7FF4F2361B3E16CF001A30A6 /* DoseKernelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4F2351B3E16CF001A30A6 /* DoseKernelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +48,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F02DFBE1B3CD4DC00F005AF /* LoggerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
+		7F02DFC11B3D002700F005AF /* SimpleDeviceInformationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDeviceInformationProvider.swift; sourceTree = "<group>"; };
+		7F29ACD21B3BC83600A8F913 /* SimpleLoggerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLoggerProvider.swift; sourceTree = "<group>"; };
+		7F29ACD51B3BC84A00A8F913 /* SimpleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLogger.swift; sourceTree = "<group>"; };
+		7F29ACD61B3BC84A00A8F913 /* DeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
+		7F29ACDB1B3BC86400A8F913 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		7F29ACDC1B3BC86400A8F913 /* ServiceProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderProtocol.swift; sourceTree = "<group>"; };
+		7F61D6271B3FD05D00493CF4 /* Service2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service2.swift; sourceTree = "<group>"; };
+		7F61D6291B3FD07A00493CF4 /* services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = services.plist; sourceTree = "<group>"; };
+		7F61D62B1B3FD39300493CF4 /* TKernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKernel.swift; sourceTree = "<group>"; };
+		7F61D62D1B40DD5200493CF4 /* Service3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service3.swift; sourceTree = "<group>"; };
 		7F649B651B3BC68900000AF4 /* Dose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F649B691B3BC68900000AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F649B6A1B3BC68900000AF4 /* Dose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dose.h; sourceTree = "<group>"; };
 		7F649B701B3BC68900000AF4 /* DoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F649B761B3BC68900000AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F649B771B3BC68900000AF4 /* DoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseTests.swift; sourceTree = "<group>"; };
+		7F649B771B3BC68900000AF4 /* DoseContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseContainerTests.swift; sourceTree = "<group>"; };
+		7FB778A01B3FC09900DB5AAA /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7FF1ED5C1B3BDABA0060F418 /* ExampleServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleServiceProvider.swift; sourceTree = "<group>"; };
+		7FF1ED5D1B3BDABA0060F418 /* Service1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service1.swift; sourceTree = "<group>"; };
+		7FF4F2321B3E139E001A30A6 /* Kernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kernel.swift; sourceTree = "<group>"; };
+		7FF4F2351B3E16CF001A30A6 /* DoseKernelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseKernelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +91,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F02DFBD1B3CD44A00F005AF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7F02DFBE1B3CD4DC00F005AF /* LoggerProtocol.swift */,
+			);
+			name = Protocol;
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		7F29ACD01B3BC7F200A8F913 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				7F29ACD21B3BC83600A8F913 /* SimpleLoggerProvider.swift */,
+				7F02DFC11B3D002700F005AF /* SimpleDeviceInformationProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		7F29ACD11B3BC7F900A8F913 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7F29ACD51B3BC84A00A8F913 /* SimpleLogger.swift */,
+				7F29ACD61B3BC84A00A8F913 /* DeviceInformation.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		7F649B5B1B3BC68900000AF4 = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +139,14 @@
 		7F649B671B3BC68900000AF4 /* Dose */ = {
 			isa = PBXGroup;
 			children = (
+				7F02DFBD1B3CD44A00F005AF /* Protocol */,
+				7F29ACD11B3BC7F900A8F913 /* Service */,
+				7F29ACD01B3BC7F200A8F913 /* Provider */,
 				7F649B6A1B3BC68900000AF4 /* Dose.h */,
+				7F29ACDB1B3BC86400A8F913 /* Container.swift */,
+				7F29ACDC1B3BC86400A8F913 /* ServiceProviderProtocol.swift */,
+				7FF4F2321B3E139E001A30A6 /* Kernel.swift */,
+				7FB778A01B3FC09900DB5AAA /* Service.swift */,
 				7F649B681B3BC68900000AF4 /* Supporting Files */,
 			);
 			path = Dose;
@@ -88,7 +163,14 @@
 		7F649B741B3BC68900000AF4 /* DoseTests */ = {
 			isa = PBXGroup;
 			children = (
-				7F649B771B3BC68900000AF4 /* DoseTests.swift */,
+				7F61D6291B3FD07A00493CF4 /* services.plist */,
+				7F61D62B1B3FD39300493CF4 /* TKernel.swift */,
+				7FF1ED5C1B3BDABA0060F418 /* ExampleServiceProvider.swift */,
+				7FF1ED5D1B3BDABA0060F418 /* Service1.swift */,
+				7F61D6271B3FD05D00493CF4 /* Service2.swift */,
+				7F61D62D1B40DD5200493CF4 /* Service3.swift */,
+				7F649B771B3BC68900000AF4 /* DoseContainerTests.swift */,
+				7FF4F2351B3E16CF001A30A6 /* DoseKernelTests.swift */,
 				7F649B751B3BC68900000AF4 /* Supporting Files */,
 			);
 			path = DoseTests;
@@ -199,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F61D62A1B3FD07A00493CF4 /* services.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF4F2331B3E139E001A30A6 /* Kernel.swift in Sources */,
+				7F29ACDF1B3BC86400A8F913 /* ServiceProviderProtocol.swift in Sources */,
+				7F29ACDD1B3BC86400A8F913 /* Container.swift in Sources */,
+				7F02DFC21B3D002700F005AF /* SimpleDeviceInformationProvider.swift in Sources */,
+				7F29ACD71B3BC84A00A8F913 /* SimpleLogger.swift in Sources */,
+				7FB778A11B3FC09900DB5AAA /* Service.swift in Sources */,
+				7F02DFBF1B3CD4DC00F005AF /* LoggerProtocol.swift in Sources */,
+				7F29ACD31B3BC83600A8F913 /* SimpleLoggerProvider.swift in Sources */,
+				7F29ACD91B3BC84A00A8F913 /* DeviceInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +308,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F649B781B3BC68900000AF4 /* DoseTests.swift in Sources */,
+				7F649B781B3BC68900000AF4 /* DoseContainerTests.swift in Sources */,
+				7FB778A21B3FC09900DB5AAA /* Service.swift in Sources */,
+				7F29ACD41B3BC83600A8F913 /* SimpleLoggerProvider.swift in Sources */,
+				7FF4F2341B3E139E001A30A6 /* Kernel.swift in Sources */,
+				7F61D62C1B3FD39300493CF4 /* TKernel.swift in Sources */,
+				7F29ACDE1B3BC86400A8F913 /* Container.swift in Sources */,
+				7FF1ED5F1B3BDABA0060F418 /* Service1.swift in Sources */,
+				7F61D6281B3FD05D00493CF4 /* Service2.swift in Sources */,
+				7F29ACD81B3BC84A00A8F913 /* SimpleLogger.swift in Sources */,
+				7FF1ED5E1B3BDABA0060F418 /* ExampleServiceProvider.swift in Sources */,
+				7FF4F2361B3E16CF001A30A6 /* DoseKernelTests.swift in Sources */,
+				7F02DFC01B3CD4DC00F005AF /* LoggerProtocol.swift in Sources */,
+				7F29ACDA1B3BC84A00A8F913 /* DeviceInformation.swift in Sources */,
+				7F61D62E1B40DD5200493CF4 /* Service3.swift in Sources */,
+				7F02DFC31B3D002700F005AF /* SimpleDeviceInformationProvider.swift in Sources */,
+				7F29ACE01B3BC86400A8F913 /* ServiceProviderProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +430,7 @@
 		7F649B7C1B3BC68900000AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +440,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7F649B7D1B3BC68900000AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -399,6 +509,7 @@
 				7F649B7D1B3BC68900000AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F649B7E1B3BC68900000AF4 /* Build configuration list for PBXNativeTarget "DoseTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +518,7 @@
 				7F649B801B3BC68900000AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
