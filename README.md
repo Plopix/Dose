@@ -170,7 +170,7 @@ The definition file is where all the magic is set up. You need a simple Plist fi
     </dict>
 	</plist>
 		
-``` s
+```
 
 Find a bigger example here: <https://github.com/Plopix/Dose/blob/master/DoseTests/services.plist>
 
