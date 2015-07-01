@@ -25,9 +25,56 @@ All must stays simple, my goal was to avoid to always rely on the UIApplication 
 * Lazy loading of services
 * All in Swift
 
+## Why it's cool and powerful
+
+There is a bunch of useful reasons to use a service container:
+
+* to avoid singleton everywhere in your code
+* improve the simplicity of your Units Tests
+* Decrease the couplage between the different classes of your code
+* Increase the legibility of your code
+* Allow you to organise by "service" and share those services!
+* Services will be created/instanciated only on demand wich is also a huge advantage for performances.
+
+## Simple explanation
+
+First, really simple, base on the dependency injection principle. Let say you have a logger which respects the protocol LoggerProtocol
+
+You can create your MyLogger : LoggerProtocol implementing the good methods, BUT, if you want later to change your Logger using antother librairy, well if this new lib respects the LoggerProtocol you have nothing to do except to make little change in the simple Plist configuration file!
+
+Then if you have 5 services which each needs the logger, your code won't change. You'll just have to change the definition of the service.
+
+And to call a method on one of your service, just call it:
+
+	Kernel.instance.get("my.service.name")->getLastFacebookComments()
+
+> Scroll down to see how to create a service.
+
+Look a the DoseTest classes to understand better if you're not familiar with Dependency Injection Container
+
+> if you want to help me on the documentation, feel free to PR
+
 ## Installation
 
-* TODO
+### CocoaPods (not publish yet)
+
+CocoaPods is a dependency manager for Cocoa projects.
+
+CocoaPods 0.36 adds supports for Swift and embedded frameworks. You can install it with the following command:
+
+	$ gem install cocoapods
+	
+To integrate Dose into your Xcode project using CocoaPods, specify it in your Podfile:
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+	pod 'Dose', '~> 1.0.0'
+
+Then, run the following command:
+
+	$ pod install
 
 ## Usage
 
@@ -98,34 +145,34 @@ The definition file is where all the magic is set up. You need a simple Plist fi
         <dict>
             <key>debug_output</key><true/>
             <key>lambdakey</key><string>A VALUE</string>
-    </dict>
-    <key>services</key>
-    <dict>
-        <key>dose.service1</key>
-        <dict>
-            <key>class</key><string>DoseTests.Service1</string>
-            <key>arguments</key>
-            <array>
-                <string>@lambdakey</string>
-                <string>An argument</string>
-            </array>
         </dict>
-        <key>dose.service2</key>
-        <dict>
-            <key>class</key><string>DoseTests.Service2</string>
-            <key>arguments</key>
-            <array>
-                <string>Second Service</string>
-                <string>@dose.service1</string>
-            </array>
-        </dict>
+    	<key>services</key>
+    	<dict>
+        	<key>dose.service1</key>
+        	<dict>
+            	<key>class</key><string>DoseTests.Service1</string>
+            	<key>arguments</key>
+            	<array>
+                	<string>@lambdakey</string>
+                	<string>An argument</string>
+	            </array>
+    	    </dict>
+	        <key>dose.service2</key>
+    	    <dict>
+        	    <key>class</key><string>DoseTests.Service2</string>
+            	<key>arguments</key>
+	            <array>
+   		            <string>Second Service</string>
+                    <string>@dose.service1</string>
+	            </array>
+        	</dict>
+		</dict>
     </dict>
-</dict>
-</plist>
+	</plist>
+		
+``` s
 
-```
-
-> Find a bigger example here: 
+Find a bigger example here: <https://github.com/Plopix/Dose/blob/master/DoseTests/services.plist>
 
 ##### A dose of a service
 
@@ -134,7 +181,7 @@ Each service:
 * is define by an name. Ex:dose.service1
 * needs a "class" to be instanciated. Ex:DoseTests.Service1
   
-  Please note that you need to precise the Prefix, it's usually you application name but it could be a class from another module.
+  > Please note that you need to precise the Prefix, it's usually you application name but it could be a class from another module.
 
 * can have several arguments.
 
@@ -190,13 +237,8 @@ Just call it: Kernel.instance.get("dose.service.name")
 
 * @todo: Review the documentation.
 * @todo: Talked about the included Service, Providers etc...
-* @todo: Give a example with Alamo Fire or something
-
-* @todo: Make more test and release
-
-* @todo: Improvement the plist features
 * @todo: check the circular references
-* @todo: tags? factory? inheritance?, scopes? etc..
+* @todo: Improve the plist features: tags? factory? inheritance?, scopes? etc..
 
 
 ## Credits

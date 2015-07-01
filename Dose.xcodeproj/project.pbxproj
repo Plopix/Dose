@@ -50,6 +50,8 @@
 /* Begin PBXFileReference section */
 		7F02DFBE1B3CD4DC00F005AF /* LoggerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
 		7F02DFC11B3D002700F005AF /* SimpleDeviceInformationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDeviceInformationProvider.swift; sourceTree = "<group>"; };
+		7F178B0F1B43B7C0007D0CDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		7F178B101B43B7C0007D0CDE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		7F29ACD21B3BC83600A8F913 /* SimpleLoggerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLoggerProvider.swift; sourceTree = "<group>"; };
 		7F29ACD51B3BC84A00A8F913 /* SimpleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLogger.swift; sourceTree = "<group>"; };
 		7F29ACD61B3BC84A00A8F913 /* DeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
@@ -148,6 +150,8 @@
 				7FF4F2321B3E139E001A30A6 /* Kernel.swift */,
 				7FB778A01B3FC09900DB5AAA /* Service.swift */,
 				7F649B681B3BC68900000AF4 /* Supporting Files */,
+				7F178B0F1B43B7C0007D0CDE /* README.md */,
+				7F178B101B43B7C0007D0CDE /* LICENSE */,
 			);
 			path = Dose;
 			sourceTree = "<group>";
