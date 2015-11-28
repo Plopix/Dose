@@ -14,14 +14,14 @@ public class SimpleDeviceInformationProvider : ServiceProviderProtocol {
     /**
     Constructor
     
-    :returns: SimpleDeviceInformation
+    - returns: SimpleDeviceInformation
     */
     public init() {}
     
     /**
     Register the SimpleDeviceInformation
     
-    :param: container the Container
+    - parameter container: the Container
     */
     public func register( container: Container ) -> Void {
         

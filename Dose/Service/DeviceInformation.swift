@@ -41,7 +41,7 @@ public class DeviceInformation {
     /**
     Constructor
     
-    :returns: self
+    - returns: self
     */
     public init() {
         let width: CGFloat = UIScreen.mainScreen().bounds.size.width
@@ -58,7 +58,7 @@ public class DeviceInformation {
     /**
     iOS7
     
-    :returns: iOS7
+    - returns: iOS7
     */
     public func isIOS7() -> Bool {
         return self.osVersion.iOS7
@@ -67,7 +67,7 @@ public class DeviceInformation {
     /**
     iOS8
     
-    :returns: iOS8
+    - returns: iOS8
     */
     public func isIOS8() -> Bool {
         return self.osVersion.iOS8
@@ -76,7 +76,7 @@ public class DeviceInformation {
     /**
     isIphone4OrLess
     
-    :returns: isIphone4OrLess
+    - returns: isIphone4OrLess
     */
     public func isIphone4OrLess() -> Bool {
         return self.deviceType.IS_IPHONE_4_OR_LESS
@@ -85,7 +85,7 @@ public class DeviceInformation {
     /**
     isPhone5
     
-    :returns: isPhone5
+    - returns: isPhone5
     */
     public func isPhone5() -> Bool {
         return self.deviceType.IS_IPHONE_5
@@ -94,7 +94,7 @@ public class DeviceInformation {
     /**
     isIphone6
     
-    :returns: isIphone6
+    - returns: isIphone6
     */
     public func isIphone6() -> Bool {
         return self.deviceType.IS_IPHONE_6
@@ -103,7 +103,7 @@ public class DeviceInformation {
     /**
     isIphone6Plus
     
-    :returns: isIphone6Plus
+    - returns: isIphone6Plus
     */
     public func isIphone6Plus() -> Bool {
         return self.deviceType.IS_IPHONE_6P
@@ -112,7 +112,7 @@ public class DeviceInformation {
     /**
     isIpad
     
-    :returns: isIpad
+    - returns: isIpad
     */
     public func isIpad() -> Bool {
         return self.deviceType.IS_IPAD

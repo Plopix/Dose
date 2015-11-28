@@ -31,9 +31,9 @@ class DoseContainerTests: XCTestCase {
             return Service1(args:["Lazy Bob hyper styly"])
         }
         app.attach("service_closure") { (container: Container) -> Any? in
-            var dateFormatter: NSDateFormatter = NSDateFormatter()
+            let dateFormatter: NSDateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "MM-dd-yyyy HH"
-            var dateInFormat: String = dateFormatter.stringFromDate(NSDate())
+            let dateInFormat: String = dateFormatter.stringFromDate(NSDate())
             return dateInFormat
         }
         
@@ -42,9 +42,9 @@ class DoseContainerTests: XCTestCase {
         }
         
         app["param_closure"] = { (format: String) -> String in
-            var dateFormatter: NSDateFormatter = NSDateFormatter()
+            let dateFormatter: NSDateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = format
-            var dateInFormat: String = dateFormatter.stringFromDate(NSDate())
+            let dateInFormat: String = dateFormatter.stringFromDate(NSDate())
             return dateInFormat
         }
         
@@ -59,32 +59,32 @@ class DoseContainerTests: XCTestCase {
     
     func testSimpleString() {
         XCTAssertNotNil(app,"Bad Instanciation")
-        XCTAssertEqual(app["DUB"] as! String, "Dublin", "getParameter doesn't retrieve the good value")
+        XCTAssertEqual(app["DUB"] as? String, "Dublin", "getParameter doesn't retrieve the good value")
         
     }
     
     func testServiceClosureCall() {
         let date: String = app["service_closure"] as! String
-        var dateFormatter: NSDateFormatter = NSDateFormatter()
+        let dateFormatter: NSDateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "MM-dd-yyyy HH"
-        var dateInFormat: String = dateFormatter.stringFromDate(NSDate())
+        let dateInFormat: String = dateFormatter.stringFromDate(NSDate())
         XCTAssertEqual(dateInFormat, date, "Something went wrong")
     }
     
     func testParamClosureCall() {
         let f: (format: String) -> String = app["param_closure"] as! (format: String) -> String
         let testedFormat: String = "dd-mm-MM-YY HH"
-        var dateFormatter: NSDateFormatter = NSDateFormatter()
+        let dateFormatter: NSDateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = testedFormat
-        var dateInFormat: String = dateFormatter.stringFromDate(NSDate())
+        let dateInFormat: String = dateFormatter.stringFromDate(NSDate())
         XCTAssertEqual( f(format:testedFormat), dateInFormat, "Something went wrong in the paramClosure")
     }
     
     func testMixedCall() {
         XCTAssertTrue(app["mixed"] is Service1, "Lazy instanciation doesn't work")
-        var dateFormatter: NSDateFormatter = NSDateFormatter()
+        let dateFormatter: NSDateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "MM-dd-yyyy HH"
-        var dateInFormat: String = dateFormatter.stringFromDate(NSDate())
+        let dateInFormat: String = dateFormatter.stringFromDate(NSDate())
         
         let service: Service1 = app["mixed"] as! Service1
 
@@ -117,7 +117,7 @@ class DoseContainerTests: XCTestCase {
     }
     
     func testExampleProvider() {
-        XCTAssertEqual(app["exampleParam"] as! String, "FromExampleServiceProvider",  "exampleParam is not correclty retrieved")
+        XCTAssertEqual(app["exampleParam"] as? String, "FromExampleServiceProvider",  "exampleParam is not correclty retrieved")
     }
 
     func testExtended() {

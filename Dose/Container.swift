@@ -25,7 +25,7 @@ public class Container {
     /**
     Constructor
     
-    :returns: self
+    - returns: self
     */
     init() {
         slots = [String: Slot]();
@@ -34,20 +34,20 @@ public class Container {
     /**
     Return the service/params keys
     
-    :returns: the keys
+    - returns: the keys
     */
 
     public func getKeys() -> [String]{
-        return slots.keys.array
+        return Array(slots.keys)
     }
     
     /**
     Register service of a provider
     
-    :param: provider          The provider
-    :param: additionnalValues Params to customize the provider
+    - parameter provider:          The provider
+    - parameter additionnalValues: Params to customize the provider
     
-    :returns: self
+    - returns: self
     */
     public func register( provider: ServiceProviderProtocol, _ additionnalValues: [String: AnyObject]?=nil ) -> Container {
         provider.register(self)
@@ -62,9 +62,9 @@ public class Container {
     /**
     Return the raw value for a key, useful when you don't want to call the closure
     
-    :param: key The Key
+    - parameter key: The Key
     
-    :returns: the raw value
+    - returns: the raw value
     */
     public func getRaw(key:String) -> Any? {
         if let slot: Slot = slots[key] {
@@ -80,8 +80,8 @@ public class Container {
     /**
     Attach a closure to a key
     
-    :param: key     The key
-    :param: closure The Closure
+    - parameter key:     The key
+    - parameter closure: The Closure
     */
     public func attach(key: String, _ closure: Container -> Any? ) {
         if let slot: Slot = slots[key] {
@@ -108,9 +108,9 @@ public class Container {
     /**
     Getter and Setter
     
-    :param: key The Key
+    - parameter key: The Key
     
-    :returns: Something
+    - returns: Something
     */
     public subscript(key: String) -> Any? {
         get {

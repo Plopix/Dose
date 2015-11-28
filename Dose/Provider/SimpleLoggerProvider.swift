@@ -14,14 +14,14 @@ public class SimpleLoggerProvider : ServiceProviderProtocol {
     /**
     Constructor
     
-    :returns: SimpleLoggerProvider
+    - returns: SimpleLoggerProvider
     */
     public init() {}
     
     /**
     Register the SimpleLoggerService
     
-    :param: container the Container
+    - parameter container: the Container
     */
     public func register( container: Container ) -> Void {
         container["logger"] =

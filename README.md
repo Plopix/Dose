@@ -16,7 +16,7 @@ Then here is Dose, a simple Dependency Injection Container clearly inspired by S
 ## Purposes
 
 The objective here is to bring a DIC into an iOS application.
-All must stays simple, my goal was to avoid to always rely on the UIApplication delegate and always have plenty of singleton.
+All must stays simple, my goal was to avoid to always rely on the UIApplication delegate and always have plenty of singletons.
 
 ## Key features
 
@@ -30,17 +30,17 @@ All must stays simple, my goal was to avoid to always rely on the UIApplication 
 There is a bunch of useful reasons to use a service container:
 
 * to avoid singleton everywhere in your code
-* improve the simplicity of your Units Tests
-* Decrease the couplage between the different classes of your code
-* Increase the legibility of your code
-* Allow you to organise by "service" and share those services!
+* to improve the simplicity of your Units Tests
+* to decrease the couplage between the different classes of your code
+* to increase the legibility of your code
+* to allow you to organise you code by "service" and share those services!
 * Services will be created/instanciated only on demand wich is also a huge advantage for performances.
 
 ## Simple explanation
 
 First, really simple, base on the dependency injection principle. Let say you have a logger which respects the protocol LoggerProtocol
 
-You can create your MyLogger : LoggerProtocol implementing the good methods, BUT, if you want later to change your Logger using antother librairy, well if this new lib respects the LoggerProtocol you have nothing to do except to make little change in the simple Plist configuration file!
+You can create your MyLogger : LoggerProtocol implementing the good methods, BUT, if you want later to change your Logger using antother library, well if this new lib is conform to the LoggerProtocol you have nothing to do except to make little change in the simple Plist configuration file!
 
 Then if you have 5 services which each needs the logger, your code won't change. You'll just have to change the definition of the service.
 

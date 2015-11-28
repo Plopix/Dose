@@ -35,11 +35,12 @@ class DoseKernelTests: XCTestCase {
     }
 
     func testExampleProvider() {
-        XCTAssertEqual(kernel.get("exampleParam"), "FromExampleServiceProvider",  "exampleParam is not correclty retrieved")
+        let param: String = kernel.get("exampleParam")
+        XCTAssertEqual(param, "FromExampleServiceProvider",  "exampleParam is not correclty retrieved")
     }
     
     func testChain() {
-        let serv2: Service2 = kernel.get("dose.service2")
+        let serv2: Service2 = kernel.get("dose.service2")        
         XCTAssertEqual(serv2.name, "Plop! Second Service Need the One FromExampleServiceProvider - Plopix - Third Argument", "Chain doesn't work")
     }
     

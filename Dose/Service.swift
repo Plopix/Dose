@@ -14,9 +14,9 @@ public class Service: NSObject {
     /**
     Constructor of a Service
     
-    :param: args list of args
+    - parameter args: list of args
     
-    :returns: self
+    - returns: self
     */
     public required init(args:[Any]) {
         super.init()

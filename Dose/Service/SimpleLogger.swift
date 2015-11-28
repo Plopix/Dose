@@ -17,9 +17,9 @@ public class SimpleLogger : LoggerProtocol {
     /**
     Constructor
     
-    :param: debug Enable or not the debugOutput
+    - parameter debug: Enable or not the debugOutput
     
-    :returns: The SimpleLogger
+    - returns: The SimpleLogger
     */
     public init(_ debug: Bool) {
         debug_enabled = debug
@@ -35,28 +35,28 @@ public class SimpleLogger : LoggerProtocol {
     /**
     Print a verbose message
     
-    :param: message The message
-    :param: function Function
-    :param: file     File
-    :param: line     Line
+    - parameter message: The message
+    - parameter function: Function
+    - parameter file:     File
+    - parameter line:     Line
     */
     public func verbose(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
         if (debug_enabled) {
-            println("V: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
+            print("V: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
     }
     
     /**
     Print a debug message
     
-    :param: message The message
-    :param: function Function
-    :param: file     File
-    :param: line     Line
+    - parameter message: The message
+    - parameter function: Function
+    - parameter file:     File
+    - parameter line:     Line
     */
     public func debug(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
         if (debug_enabled) {
-            println("D: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
+            print("D: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
 
     }
@@ -64,14 +64,14 @@ public class SimpleLogger : LoggerProtocol {
     /**
     Print an info message
     
-    :param: message The message
-    :param: function Function
-    :param: file     File
-    :param: line     Line
+    - parameter message: The message
+    - parameter function: Function
+    - parameter file:     File
+    - parameter line:     Line
     */
     public func info(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
         if (debug_enabled) {
-            println("I: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
+            print("I: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
 
     }
@@ -79,14 +79,14 @@ public class SimpleLogger : LoggerProtocol {
     /**
     Print a warning message
     
-    :param: message The message
-    :param: function Function
-    :param: file     File
-    :param: line     Line
+    - parameter message: The message
+    - parameter function: Function
+    - parameter file:     File
+    - parameter line:     Line
     */
     public func warning(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
         if (debug_enabled) {
-            println("W: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
+            print("W: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
 
     }
@@ -94,14 +94,14 @@ public class SimpleLogger : LoggerProtocol {
     /**
     Print an error message
     
-    :param: message The message
-    :param: function Function
-    :param: file     File
-    :param: line     Line
+    - parameter message: The message
+    - parameter function: Function
+    - parameter file:     File
+    - parameter line:     Line
     */
     public func error(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
         if (debug_enabled) {
-            println("E: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
+            print("E: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
 
     }
@@ -109,14 +109,14 @@ public class SimpleLogger : LoggerProtocol {
     /**
     Print a severe message
     
-    :param: message The message
-    :param: function Function
-    :param: file     File
-    :param: line     Line
+    - parameter message: The message
+    - parameter function: Function
+    - parameter file:     File
+    - parameter line:     Line
     */
     public func severe(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
         if (debug_enabled) {
-            println("S: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
+            print("S: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
 
     }

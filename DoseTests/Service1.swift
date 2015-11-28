@@ -17,7 +17,7 @@ class Service1 : Service {
         subname = "EMPTY SUBNAME"
         name = args[0] as! String
         if ( args.count >= 3 ) {
-            if let sub: String = args[2] as? String {
+            if let _: String = args[2] as? String {
                 subname = args[2] as! String
             }
         }

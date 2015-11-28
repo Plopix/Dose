@@ -16,9 +16,9 @@ public protocol ServiceProviderProtocol {
     /**
     Register some services
     
-    :param: container the Container
+    - parameter container: the Container
     
-    :returns: Void
+    - returns: Void
     */
     func register( container: Container ) -> Void
     
