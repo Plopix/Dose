@@ -199,7 +199,6 @@ Here is an exemple:
         required init(args:[Any]) {
             name = args[1] as! String
             logger = args[0] as! LoggerProtocol
-            super.init(args: args)
         }
     }
 ```
