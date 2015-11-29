@@ -2,6 +2,9 @@
 
 A Dependency Injection Container for Swift
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+
 > Work is still in progress but it works!
 
 > !! ANY HELP WILL BE APPRECIATED !!
@@ -56,9 +59,25 @@ Look a the DoseTest classes to understand better if you're not familiar with Dep
 
 ## Installation
 
-### Carthage ( on master for now)
+### Carthage
 
-@todo
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+To install the `carthage` tool on your system, please download and run the `Carthage.pkg` file for the latest  [release](https://github.com/Carthage/Carthage/releases).
+
+Alternatively **only on Xcode 7.x**, you can use [Homebrew](http://brew.sh) and install the `carthage` tool on your system simply by running `brew update` and `brew install carthage`. (note: if you previously installed the binary version of Carthage, you should delete `/Library/Frameworks/CarthageKit.framework`).
+
+To integrate Dose into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "Plopix/Dose" "master"
+```
+
+> "master" before the first 1.0.0 release.
+
+Run `carthage` to build the framework and drag the built `Dose.framework` into your Xcode project.
+
+> Actually if you do not know how to use Carthage, please read here: [Carthage - Get Started](https://github.com/Carthage/Carthage/blob/master/README.md#getting-started)
 
 ## Usage
 
