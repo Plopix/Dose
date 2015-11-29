@@ -9,7 +9,29 @@
 /* Begin PBXBuildFile section */
 		7FA22E721C0A74AE0015D3D4 /* Dose.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA22E711C0A74AE0015D3D4 /* Dose.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA22E791C0A74AE0015D3D4 /* Dose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA22E6E1C0A74AE0015D3D4 /* Dose.framework */; };
-		7FA22E7E1C0A74AE0015D3D4 /* DoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */; };
+		7FA22E971C0A75C10015D3D4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7FA22E961C0A75C10015D3D4 /* LICENSE */; };
+		7FA22EA01C0A75D90015D3D4 /* services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FA22E981C0A75D90015D3D4 /* services.plist */; };
+		7FA22EC21C0A7A5C0015D3D4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E881C0A75980015D3D4 /* Container.swift */; };
+		7FA22EC31C0A7A5F0015D3D4 /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */; };
+		7FA22EC41C0A7A610015D3D4 /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8A1C0A75980015D3D4 /* Kernel.swift */; };
+		7FA22EC51C0A7A630015D3D4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8B1C0A75980015D3D4 /* Service.swift */; };
+		7FA22EC61C0A7A690015D3D4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E881C0A75980015D3D4 /* Container.swift */; };
+		7FA22EC71C0A7A6B0015D3D4 /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */; };
+		7FA22EC81C0A7A6D0015D3D4 /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8A1C0A75980015D3D4 /* Kernel.swift */; };
+		7FA22EC91C0A7A720015D3D4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8B1C0A75980015D3D4 /* Service.swift */; };
+		7FA22ECA1C0A7AAC0015D3D4 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBE1C0A79FC0015D3D4 /* DeviceInformation.swift */; };
+		7FA22ECB1C0A7AAE0015D3D4 /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */; };
+		7FA22ECC1C0A7AAF0015D3D4 /* Service1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9B1C0A75D90015D3D4 /* Service1.swift */; };
+		7FA22ECD1C0A7AB00015D3D4 /* Service2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9C1C0A75D90015D3D4 /* Service2.swift */; };
+		7FA22ECE1C0A7AB20015D3D4 /* Service3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9D1C0A75D90015D3D4 /* Service3.swift */; };
+		7FA22ECF1C0A7AB40015D3D4 /* SimpleDeviceInformationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBA1C0A79EE0015D3D4 /* SimpleDeviceInformationProvider.swift */; };
+		7FA22ED01C0A7AB50015D3D4 /* SimpleLoggerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */; };
+		7FA22ED11C0A7AB80015D3D4 /* ExampleServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */; };
+		7FA22ED21C0A7AB90015D3D4 /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EB81C0A79E60015D3D4 /* LoggerProtocol.swift */; };
+		7FA22ED31C0A7ABB0015D3D4 /* TKernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E991C0A75D90015D3D4 /* TKernel.swift */; };
+		7FA22ED41C0A7ABC0015D3D4 /* DoseContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */; };
+		7FA22ED51C0A7ABD0015D3D4 /* DoseKernelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */; };
+		7FA22ED61C0A7AC10015D3D4 /* DoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +51,25 @@
 		7FA22E781C0A74AE0015D3D4 /* DoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseTests.swift; sourceTree = "<group>"; };
 		7FA22E7F1C0A74AE0015D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA22E881C0A75980015D3D4 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderProtocol.swift; sourceTree = "<group>"; };
+		7FA22E8A1C0A75980015D3D4 /* Kernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kernel.swift; sourceTree = "<group>"; };
+		7FA22E8B1C0A75980015D3D4 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7FA22E941C0A75BA0015D3D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7FA22E961C0A75C10015D3D4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7FA22E981C0A75D90015D3D4 /* services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = services.plist; sourceTree = "<group>"; };
+		7FA22E991C0A75D90015D3D4 /* TKernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKernel.swift; sourceTree = "<group>"; };
+		7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleServiceProvider.swift; path = ../ExampleServiceProvider.swift; sourceTree = "<group>"; };
+		7FA22E9B1C0A75D90015D3D4 /* Service1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service1.swift; path = DoseTests/Service1.swift; sourceTree = SOURCE_ROOT; };
+		7FA22E9C1C0A75D90015D3D4 /* Service2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service2.swift; path = DoseTests/Service2.swift; sourceTree = SOURCE_ROOT; };
+		7FA22E9D1C0A75D90015D3D4 /* Service3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service3.swift; path = DoseTests/Service3.swift; sourceTree = SOURCE_ROOT; };
+		7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseContainerTests.swift; sourceTree = "<group>"; };
+		7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseKernelTests.swift; sourceTree = "<group>"; };
+		7FA22EB81C0A79E60015D3D4 /* LoggerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
+		7FA22EBA1C0A79EE0015D3D4 /* SimpleDeviceInformationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDeviceInformationProvider.swift; sourceTree = "<group>"; };
+		7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLoggerProvider.swift; sourceTree = "<group>"; };
+		7FA22EBE1C0A79FC0015D3D4 /* DeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
+		7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +112,12 @@
 		7FA22E701C0A74AE0015D3D4 /* Dose */ = {
 			isa = PBXGroup;
 			children = (
+				7FA22E961C0A75C10015D3D4 /* LICENSE */,
+				7FA22E941C0A75BA0015D3D4 /* README.md */,
+				7FA22E881C0A75980015D3D4 /* Container.swift */,
+				7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */,
+				7FA22E8A1C0A75980015D3D4 /* Kernel.swift */,
+				7FA22E8B1C0A75980015D3D4 /* Service.swift */,
 				7FA22E711C0A74AE0015D3D4 /* Dose.h */,
 				7FA22E731C0A74AE0015D3D4 /* Info.plist */,
 			);
@@ -80,10 +127,47 @@
 		7FA22E7C1C0A74AE0015D3D4 /* DoseTests */ = {
 			isa = PBXGroup;
 			children = (
+				7FA22EB71C0A797D0015D3D4 /* Service */,
+				7FA22EB61C0A794E0015D3D4 /* Provider */,
+				7FA22EB51C0A79470015D3D4 /* Protocol */,
+				7FA22E981C0A75D90015D3D4 /* services.plist */,
+				7FA22E991C0A75D90015D3D4 /* TKernel.swift */,
+				7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */,
+				7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */,
 				7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */,
 				7FA22E7F1C0A74AE0015D3D4 /* Info.plist */,
 			);
 			path = DoseTests;
+			sourceTree = "<group>";
+		};
+		7FA22EB51C0A79470015D3D4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7FA22EB81C0A79E60015D3D4 /* LoggerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7FA22EB61C0A794E0015D3D4 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				7FA22EBA1C0A79EE0015D3D4 /* SimpleDeviceInformationProvider.swift */,
+				7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */,
+				7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		7FA22EB71C0A797D0015D3D4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7FA22EBE1C0A79FC0015D3D4 /* DeviceInformation.swift */,
+				7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */,
+				7FA22E9B1C0A75D90015D3D4 /* Service1.swift */,
+				7FA22E9C1C0A75D90015D3D4 /* Service2.swift */,
+				7FA22E9D1C0A75D90015D3D4 /* Service3.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA22E971C0A75C10015D3D4 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA22EA01C0A75D90015D3D4 /* services.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA22EC21C0A7A5C0015D3D4 /* Container.swift in Sources */,
+				7FA22EC31C0A7A5F0015D3D4 /* ServiceProviderProtocol.swift in Sources */,
+				7FA22EC41C0A7A610015D3D4 /* Kernel.swift in Sources */,
+				7FA22EC51C0A7A630015D3D4 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +291,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA22E7E1C0A74AE0015D3D4 /* DoseTests.swift in Sources */,
+				7FA22EC61C0A7A690015D3D4 /* Container.swift in Sources */,
+				7FA22EC71C0A7A6B0015D3D4 /* ServiceProviderProtocol.swift in Sources */,
+				7FA22EC81C0A7A6D0015D3D4 /* Kernel.swift in Sources */,
+				7FA22EC91C0A7A720015D3D4 /* Service.swift in Sources */,
+				7FA22ECC1C0A7AAF0015D3D4 /* Service1.swift in Sources */,
+				7FA22ECB1C0A7AAE0015D3D4 /* SimpleLogger.swift in Sources */,
+				7FA22ECD1C0A7AB00015D3D4 /* Service2.swift in Sources */,
+				7FA22ECE1C0A7AB20015D3D4 /* Service3.swift in Sources */,
+				7FA22ED01C0A7AB50015D3D4 /* SimpleLoggerProvider.swift in Sources */,
+				7FA22ED11C0A7AB80015D3D4 /* ExampleServiceProvider.swift in Sources */,
+				7FA22ED51C0A7ABD0015D3D4 /* DoseKernelTests.swift in Sources */,
+				7FA22ED31C0A7ABB0015D3D4 /* TKernel.swift in Sources */,
+				7FA22ECA1C0A7AAC0015D3D4 /* DeviceInformation.swift in Sources */,
+				7FA22ED61C0A7AC10015D3D4 /* DoseTests.swift in Sources */,
+				7FA22ED41C0A7ABC0015D3D4 /* DoseContainerTests.swift in Sources */,
+				7FA22ED21C0A7AB90015D3D4 /* LoggerProtocol.swift in Sources */,
+				7FA22ECF1C0A7AB40015D3D4 /* SimpleDeviceInformationProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +414,7 @@
 		7FA22E831C0A74AE0015D3D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +425,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.plopix.dose.Dose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7FA22E841C0A74AE0015D3D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
