@@ -3,6 +3,12 @@ language: objective-c
 xcode_project: Dose.xcodeproj
 xcode_scheme: [ Dose, Dose-OSX ]
 osx_image: xcode7.1
-xcode_sdk: [macosx10.11, iphonesimulator9.1, iphoneos9.1]
+xcode_sdk: [macosx10.11, iphonesimulator9.1 ]
 
+matrix:
+    exclude:
+    - xcode_sdk: macosx10.11
+        xcode_scheme: Dose-OSX
+    - xcode_sdk: iphonesimulator9.1
+        xcode_scheme: Dose
 
