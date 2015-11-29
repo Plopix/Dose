@@ -14,7 +14,7 @@
 		<key>dose.service3</key>
 		<dict>
 			<key>class</key>
-			<string>DoseTests.Service3</string>
+			<string>Dose_iOSTests.Service3</string>
 			<key>arguments</key>
 			<array>
 				<string>@logger</string>
@@ -24,7 +24,7 @@
 		<key>dose.service1</key>
 		<dict>
 			<key>class</key>
-			<string>DoseTests.Service1</string>
+			<string>Dose_iOSTests.Service1</string>
 			<key>arguments</key>
 			<array>
 				<string>@lambdakey</string>
@@ -35,7 +35,7 @@
 		<key>dose.service2</key>
 		<dict>
 			<key>class</key>
-			<string>DoseTests.Service2</string>
+			<string>Dose_iOSTests.Service2</string>
 			<key>arguments</key>
 			<array>
 				<string>Second Service</string>

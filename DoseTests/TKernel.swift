@@ -12,7 +12,10 @@ class TKernel : Kernel {
     
     override func getConfigurationFilePath() -> String? {
         let testBundle = NSBundle(forClass: self.dynamicType)
-        return testBundle.pathForResource("services", ofType: "plist")
+        let Bname = testBundle.infoDictionary!["CFBundleName"] as! String
+        let serviceFileName = "\(Bname)-services"
+        let path = testBundle.pathForResource(serviceFileName, ofType: "plist")
+        return path
     }
     
     /**
@@ -21,7 +24,6 @@ class TKernel : Kernel {
     override func bootstrap() {
         super.bootstrap()
         container.register(SimpleLoggerProvider(), ["debug_output": true])
-        container.register(SimpleDeviceInformationProvider())
         container.register(ExampleServiceProvider())
     }
 }

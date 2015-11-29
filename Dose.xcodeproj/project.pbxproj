@@ -7,23 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FA22E721C0A74AE0015D3D4 /* Dose.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA22E711C0A74AE0015D3D4 /* Dose.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA22E791C0A74AE0015D3D4 /* Dose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA22E6E1C0A74AE0015D3D4 /* Dose.framework */; };
-		7FA22EA01C0A75D90015D3D4 /* services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FA22E981C0A75D90015D3D4 /* services.plist */; };
-		7FA22EC21C0A7A5C0015D3D4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E881C0A75980015D3D4 /* Container.swift */; };
-		7FA22EC31C0A7A5F0015D3D4 /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */; };
-		7FA22EC41C0A7A610015D3D4 /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8A1C0A75980015D3D4 /* Kernel.swift */; };
-		7FA22EC51C0A7A630015D3D4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8B1C0A75980015D3D4 /* Service.swift */; };
-		7FA22EC61C0A7A690015D3D4 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E881C0A75980015D3D4 /* Container.swift */; };
-		7FA22EC71C0A7A6B0015D3D4 /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */; };
-		7FA22EC81C0A7A6D0015D3D4 /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8A1C0A75980015D3D4 /* Kernel.swift */; };
-		7FA22EC91C0A7A720015D3D4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E8B1C0A75980015D3D4 /* Service.swift */; };
-		7FA22ECA1C0A7AAC0015D3D4 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBE1C0A79FC0015D3D4 /* DeviceInformation.swift */; };
 		7FA22ECB1C0A7AAE0015D3D4 /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */; };
 		7FA22ECC1C0A7AAF0015D3D4 /* Service1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9B1C0A75D90015D3D4 /* Service1.swift */; };
 		7FA22ECD1C0A7AB00015D3D4 /* Service2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9C1C0A75D90015D3D4 /* Service2.swift */; };
 		7FA22ECE1C0A7AB20015D3D4 /* Service3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9D1C0A75D90015D3D4 /* Service3.swift */; };
-		7FA22ECF1C0A7AB40015D3D4 /* SimpleDeviceInformationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBA1C0A79EE0015D3D4 /* SimpleDeviceInformationProvider.swift */; };
 		7FA22ED01C0A7AB50015D3D4 /* SimpleLoggerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */; };
 		7FA22ED11C0A7AB80015D3D4 /* ExampleServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */; };
 		7FA22ED21C0A7AB90015D3D4 /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EB81C0A79E60015D3D4 /* LoggerProtocol.swift */; };
@@ -31,6 +19,38 @@
 		7FA22ED41C0A7ABC0015D3D4 /* DoseContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */; };
 		7FA22ED51C0A7ABD0015D3D4 /* DoseKernelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */; };
 		7FA22ED61C0A7AC10015D3D4 /* DoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */; };
+		7FB1BE9D1C0AFDCB00227A2D /* Dose.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1BE981C0AFD7700227A2D /* Dose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB1BE9F1C0AFF2500227A2D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE971C0AFD7700227A2D /* Container.swift */; };
+		7FB1BEA01C0AFF2900227A2D /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9A1C0AFD7700227A2D /* Kernel.swift */; };
+		7FB1BEA11C0AFF2B00227A2D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9B1C0AFD7700227A2D /* Service.swift */; };
+		7FB1BEA21C0AFF2D00227A2D /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */; };
+		7FB1BEA71C0AFF4D00227A2D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE971C0AFD7700227A2D /* Container.swift */; };
+		7FB1BEA81C0AFF5000227A2D /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9A1C0AFD7700227A2D /* Kernel.swift */; };
+		7FB1BEA91C0AFF5200227A2D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9B1C0AFD7700227A2D /* Service.swift */; };
+		7FB1BEAA1C0AFF5300227A2D /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */; };
+		7FB1BEBA1C0AFFE200227A2D /* Dose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB1BEB01C0AFFE200227A2D /* Dose.framework */; };
+		7FB1BEC71C0B003100227A2D /* Dose.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB1BE981C0AFD7700227A2D /* Dose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB1BEC81C0B009C00227A2D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE971C0AFD7700227A2D /* Container.swift */; };
+		7FB1BEC91C0B00A000227A2D /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9A1C0AFD7700227A2D /* Kernel.swift */; };
+		7FB1BECA1C0B00A200227A2D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9B1C0AFD7700227A2D /* Service.swift */; };
+		7FB1BECB1C0B00A300227A2D /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */; };
+		7FB1BECC1C0B00AA00227A2D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE971C0AFD7700227A2D /* Container.swift */; };
+		7FB1BECD1C0B00AD00227A2D /* Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9A1C0AFD7700227A2D /* Kernel.swift */; };
+		7FB1BECE1C0B00B200227A2D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9B1C0AFD7700227A2D /* Service.swift */; };
+		7FB1BECF1C0B00B400227A2D /* ServiceProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */; };
+		7FB1BED01C0B00C500227A2D /* DoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */; };
+		7FB1BED11C0B00C700227A2D /* DoseKernelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */; };
+		7FB1BED21C0B00C900227A2D /* DoseContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */; };
+		7FB1BED31C0B00CA00227A2D /* TKernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E991C0A75D90015D3D4 /* TKernel.swift */; };
+		7FB1BED41C0B00CD00227A2D /* LoggerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EB81C0A79E60015D3D4 /* LoggerProtocol.swift */; };
+		7FB1BED61C0B00D100227A2D /* SimpleLoggerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */; };
+		7FB1BED71C0B00D200227A2D /* ExampleServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */; };
+		7FB1BED81C0B00D600227A2D /* Service3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9D1C0A75D90015D3D4 /* Service3.swift */; };
+		7FB1BED91C0B00D700227A2D /* Service2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9C1C0A75D90015D3D4 /* Service2.swift */; };
+		7FB1BEDA1C0B00D800227A2D /* Service1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22E9B1C0A75D90015D3D4 /* Service1.swift */; };
+		7FB1BEDB1C0B00DA00227A2D /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */; };
+		7FB1BEE21C0B095A00227A2D /* Dose-OSXTests-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FB1BEDE1C0B075F00227A2D /* Dose-OSXTests-services.plist */; };
+		7FB1BEE31C0B095F00227A2D /* Dose-iOSTests-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FB1BEDF1C0B075F00227A2D /* Dose-iOSTests-services.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,32 +61,40 @@
 			remoteGlobalIDString = 7FA22E6D1C0A74AE0015D3D4;
 			remoteInfo = Dose;
 		};
+		7FB1BEBB1C0AFFE200227A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA22E651C0A74AE0015D3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB1BEAF1C0AFFE200227A2D;
+			remoteInfo = "Dose-OSX";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7FA22E6E1C0A74AE0015D3D4 /* Dose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FA22E711C0A74AE0015D3D4 /* Dose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dose.h; sourceTree = "<group>"; };
-		7FA22E731C0A74AE0015D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FA22E781C0A74AE0015D3D4 /* DoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA22E781C0A74AE0015D3D4 /* Dose-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dose-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseTests.swift; sourceTree = "<group>"; };
 		7FA22E7F1C0A74AE0015D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FA22E881C0A75980015D3D4 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
-		7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderProtocol.swift; sourceTree = "<group>"; };
-		7FA22E8A1C0A75980015D3D4 /* Kernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kernel.swift; sourceTree = "<group>"; };
-		7FA22E8B1C0A75980015D3D4 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		7FA22E981C0A75D90015D3D4 /* services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = services.plist; sourceTree = "<group>"; };
 		7FA22E991C0A75D90015D3D4 /* TKernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKernel.swift; sourceTree = "<group>"; };
 		7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleServiceProvider.swift; path = ../ExampleServiceProvider.swift; sourceTree = "<group>"; };
-		7FA22E9B1C0A75D90015D3D4 /* Service1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service1.swift; path = DoseTests/Service1.swift; sourceTree = SOURCE_ROOT; };
-		7FA22E9C1C0A75D90015D3D4 /* Service2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service2.swift; path = DoseTests/Service2.swift; sourceTree = SOURCE_ROOT; };
-		7FA22E9D1C0A75D90015D3D4 /* Service3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service3.swift; path = DoseTests/Service3.swift; sourceTree = SOURCE_ROOT; };
+		7FA22E9B1C0A75D90015D3D4 /* Service1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service1.swift; path = DoseTests/Service/Service1.swift; sourceTree = SOURCE_ROOT; };
+		7FA22E9C1C0A75D90015D3D4 /* Service2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service2.swift; path = DoseTests/Service/Service2.swift; sourceTree = SOURCE_ROOT; };
+		7FA22E9D1C0A75D90015D3D4 /* Service3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service3.swift; path = DoseTests/Service/Service3.swift; sourceTree = SOURCE_ROOT; };
 		7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseContainerTests.swift; sourceTree = "<group>"; };
 		7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseKernelTests.swift; sourceTree = "<group>"; };
 		7FA22EB81C0A79E60015D3D4 /* LoggerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerProtocol.swift; sourceTree = "<group>"; };
-		7FA22EBA1C0A79EE0015D3D4 /* SimpleDeviceInformationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDeviceInformationProvider.swift; sourceTree = "<group>"; };
 		7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLoggerProvider.swift; sourceTree = "<group>"; };
-		7FA22EBE1C0A79FC0015D3D4 /* DeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
 		7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLogger.swift; sourceTree = "<group>"; };
+		7FB1BE971C0AFD7700227A2D /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		7FB1BE981C0AFD7700227A2D /* Dose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dose.h; sourceTree = "<group>"; };
+		7FB1BE991C0AFD7700227A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB1BE9A1C0AFD7700227A2D /* Kernel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kernel.swift; sourceTree = "<group>"; };
+		7FB1BE9B1C0AFD7700227A2D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProviderProtocol.swift; sourceTree = "<group>"; };
+		7FB1BEB01C0AFFE200227A2D /* Dose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB1BEB91C0AFFE200227A2D /* Dose-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dose-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB1BEDE1C0B075F00227A2D /* Dose-OSXTests-services.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dose-OSXTests-services.plist"; sourceTree = "<group>"; };
+		7FB1BEDF1C0B075F00227A2D /* Dose-iOSTests-services.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dose-iOSTests-services.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +113,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FB1BEAC1C0AFFE200227A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB1BEB61C0AFFE200227A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB1BEBA1C0AFFE200227A2D /* Dose.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		7FA22E641C0A74AE0015D3D4 = {
 			isa = PBXGroup;
 			children = (
-				7FA22E701C0A74AE0015D3D4 /* Dose */,
+				7FB1BE961C0AFD7700227A2D /* Source */,
 				7FA22E7C1C0A74AE0015D3D4 /* DoseTests */,
 				7FA22E6F1C0A74AE0015D3D4 /* Products */,
 			);
@@ -101,22 +144,11 @@
 			isa = PBXGroup;
 			children = (
 				7FA22E6E1C0A74AE0015D3D4 /* Dose.framework */,
-				7FA22E781C0A74AE0015D3D4 /* DoseTests.xctest */,
+				7FA22E781C0A74AE0015D3D4 /* Dose-iOSTests.xctest */,
+				7FB1BEB01C0AFFE200227A2D /* Dose.framework */,
+				7FB1BEB91C0AFFE200227A2D /* Dose-OSXTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7FA22E701C0A74AE0015D3D4 /* Dose */ = {
-			isa = PBXGroup;
-			children = (
-				7FA22E881C0A75980015D3D4 /* Container.swift */,
-				7FA22E891C0A75980015D3D4 /* ServiceProviderProtocol.swift */,
-				7FA22E8A1C0A75980015D3D4 /* Kernel.swift */,
-				7FA22E8B1C0A75980015D3D4 /* Service.swift */,
-				7FA22E711C0A74AE0015D3D4 /* Dose.h */,
-				7FA22E731C0A74AE0015D3D4 /* Info.plist */,
-			);
-			path = Dose;
 			sourceTree = "<group>";
 		};
 		7FA22E7C1C0A74AE0015D3D4 /* DoseTests */ = {
@@ -125,8 +157,9 @@
 				7FA22EB71C0A797D0015D3D4 /* Service */,
 				7FA22EB61C0A794E0015D3D4 /* Provider */,
 				7FA22EB51C0A79470015D3D4 /* Protocol */,
-				7FA22E981C0A75D90015D3D4 /* services.plist */,
 				7FA22E991C0A75D90015D3D4 /* TKernel.swift */,
+				7FB1BEDE1C0B075F00227A2D /* Dose-OSXTests-services.plist */,
+				7FB1BEDF1C0B075F00227A2D /* Dose-iOSTests-services.plist */,
 				7FA22E9E1C0A75D90015D3D4 /* DoseContainerTests.swift */,
 				7FA22E9F1C0A75D90015D3D4 /* DoseKernelTests.swift */,
 				7FA22E7D1C0A74AE0015D3D4 /* DoseTests.swift */,
@@ -146,7 +179,6 @@
 		7FA22EB61C0A794E0015D3D4 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
-				7FA22EBA1C0A79EE0015D3D4 /* SimpleDeviceInformationProvider.swift */,
 				7FA22EBB1C0A79EE0015D3D4 /* SimpleLoggerProvider.swift */,
 				7FA22E9A1C0A75D90015D3D4 /* ExampleServiceProvider.swift */,
 			);
@@ -156,13 +188,25 @@
 		7FA22EB71C0A797D0015D3D4 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				7FA22EBE1C0A79FC0015D3D4 /* DeviceInformation.swift */,
 				7FA22EBF1C0A79FC0015D3D4 /* SimpleLogger.swift */,
 				7FA22E9B1C0A75D90015D3D4 /* Service1.swift */,
 				7FA22E9C1C0A75D90015D3D4 /* Service2.swift */,
 				7FA22E9D1C0A75D90015D3D4 /* Service3.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		7FB1BE961C0AFD7700227A2D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7FB1BE971C0AFD7700227A2D /* Container.swift */,
+				7FB1BE981C0AFD7700227A2D /* Dose.h */,
+				7FB1BE991C0AFD7700227A2D /* Info.plist */,
+				7FB1BE9A1C0AFD7700227A2D /* Kernel.swift */,
+				7FB1BE9B1C0AFD7700227A2D /* Service.swift */,
+				7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,16 +216,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA22E721C0A74AE0015D3D4 /* Dose.h in Headers */,
+				7FB1BE9D1C0AFDCB00227A2D /* Dose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB1BEAD1C0AFFE200227A2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB1BEC71C0B003100227A2D /* Dose.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7FA22E6D1C0A74AE0015D3D4 /* Dose */ = {
+		7FA22E6D1C0A74AE0015D3D4 /* Dose-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose" */;
+			buildConfigurationList = 7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose-iOS" */;
 			buildPhases = (
 				7FA22E691C0A74AE0015D3D4 /* Sources */,
 				7FA22E6A1C0A74AE0015D3D4 /* Frameworks */,
@@ -192,14 +244,14 @@
 			);
 			dependencies = (
 			);
-			name = Dose;
+			name = "Dose-iOS";
 			productName = Dose;
 			productReference = 7FA22E6E1C0A74AE0015D3D4 /* Dose.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7FA22E771C0A74AE0015D3D4 /* DoseTests */ = {
+		7FA22E771C0A74AE0015D3D4 /* Dose-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FA22E851C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "DoseTests" */;
+			buildConfigurationList = 7FA22E851C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose-iOSTests" */;
 			buildPhases = (
 				7FA22E741C0A74AE0015D3D4 /* Sources */,
 				7FA22E751C0A74AE0015D3D4 /* Frameworks */,
@@ -210,9 +262,45 @@
 			dependencies = (
 				7FA22E7B1C0A74AE0015D3D4 /* PBXTargetDependency */,
 			);
-			name = DoseTests;
+			name = "Dose-iOSTests";
 			productName = DoseTests;
-			productReference = 7FA22E781C0A74AE0015D3D4 /* DoseTests.xctest */;
+			productReference = 7FA22E781C0A74AE0015D3D4 /* Dose-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB1BEAF1C0AFFE200227A2D /* Dose-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB1BEC11C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSX" */;
+			buildPhases = (
+				7FB1BEAB1C0AFFE200227A2D /* Sources */,
+				7FB1BEAC1C0AFFE200227A2D /* Frameworks */,
+				7FB1BEAD1C0AFFE200227A2D /* Headers */,
+				7FB1BEAE1C0AFFE200227A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dose-OSX";
+			productName = "Dose-OSX";
+			productReference = 7FB1BEB01C0AFFE200227A2D /* Dose.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FB1BEB81C0AFFE200227A2D /* Dose-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB1BEC41C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSXTests" */;
+			buildPhases = (
+				7FB1BEB51C0AFFE200227A2D /* Sources */,
+				7FB1BEB61C0AFFE200227A2D /* Frameworks */,
+				7FB1BEB71C0AFFE200227A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB1BEBC1C0AFFE200227A2D /* PBXTargetDependency */,
+			);
+			name = "Dose-OSXTests";
+			productName = "Dose-OSXTests";
+			productReference = 7FB1BEB91C0AFFE200227A2D /* Dose-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -231,6 +319,12 @@
 					7FA22E771C0A74AE0015D3D4 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					7FB1BEAF1C0AFFE200227A2D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					7FB1BEB81C0AFFE200227A2D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 				};
 			};
 			buildConfigurationList = 7FA22E681C0A74AE0015D3D4 /* Build configuration list for PBXProject "Dose" */;
@@ -245,8 +339,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FA22E6D1C0A74AE0015D3D4 /* Dose */,
-				7FA22E771C0A74AE0015D3D4 /* DoseTests */,
+				7FA22E6D1C0A74AE0015D3D4 /* Dose-iOS */,
+				7FA22E771C0A74AE0015D3D4 /* Dose-iOSTests */,
+				7FB1BEAF1C0AFFE200227A2D /* Dose-OSX */,
+				7FB1BEB81C0AFFE200227A2D /* Dose-OSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +359,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA22EA01C0A75D90015D3D4 /* services.plist in Resources */,
+				7FB1BEE31C0B095F00227A2D /* Dose-iOSTests-services.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB1BEAE1C0AFFE200227A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB1BEB71C0AFFE200227A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB1BEE21C0B095A00227A2D /* Dose-OSXTests-services.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +385,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA22EC21C0A7A5C0015D3D4 /* Container.swift in Sources */,
-				7FA22EC31C0A7A5F0015D3D4 /* ServiceProviderProtocol.swift in Sources */,
-				7FA22EC41C0A7A610015D3D4 /* Kernel.swift in Sources */,
-				7FA22EC51C0A7A630015D3D4 /* Service.swift in Sources */,
+				7FB1BE9F1C0AFF2500227A2D /* Container.swift in Sources */,
+				7FB1BEA01C0AFF2900227A2D /* Kernel.swift in Sources */,
+				7FB1BEA11C0AFF2B00227A2D /* Service.swift in Sources */,
+				7FB1BEA21C0AFF2D00227A2D /* ServiceProviderProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,23 +396,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA22EC61C0A7A690015D3D4 /* Container.swift in Sources */,
-				7FA22EC71C0A7A6B0015D3D4 /* ServiceProviderProtocol.swift in Sources */,
-				7FA22EC81C0A7A6D0015D3D4 /* Kernel.swift in Sources */,
-				7FA22EC91C0A7A720015D3D4 /* Service.swift in Sources */,
 				7FA22ECC1C0A7AAF0015D3D4 /* Service1.swift in Sources */,
 				7FA22ECB1C0A7AAE0015D3D4 /* SimpleLogger.swift in Sources */,
+				7FB1BEA81C0AFF5000227A2D /* Kernel.swift in Sources */,
+				7FB1BEA71C0AFF4D00227A2D /* Container.swift in Sources */,
 				7FA22ECD1C0A7AB00015D3D4 /* Service2.swift in Sources */,
 				7FA22ECE1C0A7AB20015D3D4 /* Service3.swift in Sources */,
 				7FA22ED01C0A7AB50015D3D4 /* SimpleLoggerProvider.swift in Sources */,
 				7FA22ED11C0A7AB80015D3D4 /* ExampleServiceProvider.swift in Sources */,
+				7FB1BEAA1C0AFF5300227A2D /* ServiceProviderProtocol.swift in Sources */,
 				7FA22ED51C0A7ABD0015D3D4 /* DoseKernelTests.swift in Sources */,
 				7FA22ED31C0A7ABB0015D3D4 /* TKernel.swift in Sources */,
-				7FA22ECA1C0A7AAC0015D3D4 /* DeviceInformation.swift in Sources */,
+				7FB1BEA91C0AFF5200227A2D /* Service.swift in Sources */,
 				7FA22ED61C0A7AC10015D3D4 /* DoseTests.swift in Sources */,
 				7FA22ED41C0A7ABC0015D3D4 /* DoseContainerTests.swift in Sources */,
 				7FA22ED21C0A7AB90015D3D4 /* LoggerProtocol.swift in Sources */,
-				7FA22ECF1C0A7AB40015D3D4 /* SimpleDeviceInformationProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB1BEAB1C0AFFE200227A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB1BEC81C0B009C00227A2D /* Container.swift in Sources */,
+				7FB1BEC91C0B00A000227A2D /* Kernel.swift in Sources */,
+				7FB1BECB1C0B00A300227A2D /* ServiceProviderProtocol.swift in Sources */,
+				7FB1BECA1C0B00A200227A2D /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB1BEB51C0AFFE200227A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB1BECC1C0B00AA00227A2D /* Container.swift in Sources */,
+				7FB1BECD1C0B00AD00227A2D /* Kernel.swift in Sources */,
+				7FB1BECF1C0B00B400227A2D /* ServiceProviderProtocol.swift in Sources */,
+				7FB1BED21C0B00C900227A2D /* DoseContainerTests.swift in Sources */,
+				7FB1BED61C0B00D100227A2D /* SimpleLoggerProvider.swift in Sources */,
+				7FB1BEDA1C0B00D800227A2D /* Service1.swift in Sources */,
+				7FB1BED41C0B00CD00227A2D /* LoggerProtocol.swift in Sources */,
+				7FB1BEDB1C0B00DA00227A2D /* SimpleLogger.swift in Sources */,
+				7FB1BED81C0B00D600227A2D /* Service3.swift in Sources */,
+				7FB1BED91C0B00D700227A2D /* Service2.swift in Sources */,
+				7FB1BED71C0B00D200227A2D /* ExampleServiceProvider.swift in Sources */,
+				7FB1BED31C0B00CA00227A2D /* TKernel.swift in Sources */,
+				7FB1BED11C0B00C700227A2D /* DoseKernelTests.swift in Sources */,
+				7FB1BED01C0B00C500227A2D /* DoseTests.swift in Sources */,
+				7FB1BECE1C0B00B200227A2D /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +452,13 @@
 /* Begin PBXTargetDependency section */
 		7FA22E7B1C0A74AE0015D3D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FA22E6D1C0A74AE0015D3D4 /* Dose */;
+			target = 7FA22E6D1C0A74AE0015D3D4 /* Dose-iOS */;
 			targetProxy = 7FA22E7A1C0A74AE0015D3D4 /* PBXContainerItemProxy */;
+		};
+		7FB1BEBC1C0AFFE200227A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB1BEAF1C0AFFE200227A2D /* Dose-OSX */;
+			targetProxy = 7FB1BEBB1C0AFFE200227A2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,11 +560,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Dose/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.plopix.dose.Dose;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Dose;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -431,11 +578,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Dose/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.plopix.dose.Dose;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Dose;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -460,6 +607,76 @@
 			};
 			name = Release;
 		};
+		7FB1BEC21C0AFFE200227A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.plopix.dose.Dose-OSX";
+				PRODUCT_NAME = Dose;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FB1BEC31C0AFFE200227A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.plopix.dose.Dose-OSX";
+				PRODUCT_NAME = Dose;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7FB1BEC51C0AFFE200227A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.plopix.dose.Dose-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FB1BEC61C0AFFE200227A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.plopix.dose.Dose-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose" */ = {
+		7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FA22E831C0A74AE0015D3D4 /* Debug */,
@@ -481,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FA22E851C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "DoseTests" */ = {
+		7FA22E851C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FA22E861C0A74AE0015D3D4 /* Debug */,
@@ -489,6 +706,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7FB1BEC11C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB1BEC21C0AFFE200227A2D /* Debug */,
+				7FB1BEC31C0AFFE200227A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FB1BEC41C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB1BEC51C0AFFE200227A2D /* Debug */,
+				7FB1BEC61C0AFFE200227A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

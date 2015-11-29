@@ -6,7 +6,7 @@
 //  Copyright © 2015 Plopix. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Dose.
 FOUNDATION_EXPORT double DoseVersionNumber;

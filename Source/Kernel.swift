@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 /// The Kernel
 public class Kernel {

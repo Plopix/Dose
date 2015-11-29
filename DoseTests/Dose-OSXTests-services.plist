@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>parameters</key>
+	<dict>
+		<key>debug_output</key>
+		<false/>
+		<key>lambdakey</key>
+		<string>Plopix</string>
+	</dict>
+	<key>services</key>
+	<dict>
+		<key>dose.service3</key>
+		<dict>
+			<key>class</key>
+			<string>Dose_OSXTests.Service3</string>
+			<key>arguments</key>
+			<array>
+				<string>@logger</string>
+				<string>Service3</string>
+			</array>
+		</dict>
+		<key>dose.service1</key>
+		<dict>
+			<key>class</key>
+			<string>Dose_OSXTests.Service1</string>
+			<key>arguments</key>
+			<array>
+				<string>@lambdakey</string>
+				<string>One</string>
+				<string>Third Argument</string>
+			</array>
+		</dict>
+		<key>dose.service2</key>
+		<dict>
+			<key>class</key>
+			<string>Dose_OSXTests.Service2</string>
+			<key>arguments</key>
+			<array>
+				<string>Second Service</string>
+				<string>Need the One</string>
+				<string>@exampleParam</string>
+				<string>@dose.service1</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
