@@ -231,9 +231,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7FA22E6D1C0A74AE0015D3D4 /* Dose-iOS */ = {
+		7FA22E6D1C0A74AE0015D3D4 /* Dose iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose-iOS" */;
+			buildConfigurationList = 7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose iOS" */;
 			buildPhases = (
 				7FA22E691C0A74AE0015D3D4 /* Sources */,
 				7FA22E6A1C0A74AE0015D3D4 /* Frameworks */,
@@ -244,7 +244,7 @@
 			);
 			dependencies = (
 			);
-			name = "Dose-iOS";
+			name = "Dose iOS";
 			productName = Dose;
 			productReference = 7FA22E6E1C0A74AE0015D3D4 /* Dose.framework */;
 			productType = "com.apple.product-type.framework";
@@ -267,9 +267,9 @@
 			productReference = 7FA22E781C0A74AE0015D3D4 /* Dose-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FB1BEAF1C0AFFE200227A2D /* Dose-OSX */ = {
+		7FB1BEAF1C0AFFE200227A2D /* Dose OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FB1BEC11C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSX" */;
+			buildConfigurationList = 7FB1BEC11C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose OSX" */;
 			buildPhases = (
 				7FB1BEAB1C0AFFE200227A2D /* Sources */,
 				7FB1BEAC1C0AFFE200227A2D /* Frameworks */,
@@ -280,7 +280,7 @@
 			);
 			dependencies = (
 			);
-			name = "Dose-OSX";
+			name = "Dose OSX";
 			productName = "Dose-OSX";
 			productReference = 7FB1BEB01C0AFFE200227A2D /* Dose.framework */;
 			productType = "com.apple.product-type.framework";
@@ -339,9 +339,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FA22E6D1C0A74AE0015D3D4 /* Dose-iOS */,
+				7FA22E6D1C0A74AE0015D3D4 /* Dose iOS */,
 				7FA22E771C0A74AE0015D3D4 /* Dose-iOSTests */,
-				7FB1BEAF1C0AFFE200227A2D /* Dose-OSX */,
+				7FB1BEAF1C0AFFE200227A2D /* Dose OSX */,
 				7FB1BEB81C0AFFE200227A2D /* Dose-OSXTests */,
 			);
 		};
@@ -452,12 +452,12 @@
 /* Begin PBXTargetDependency section */
 		7FA22E7B1C0A74AE0015D3D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FA22E6D1C0A74AE0015D3D4 /* Dose-iOS */;
+			target = 7FA22E6D1C0A74AE0015D3D4 /* Dose iOS */;
 			targetProxy = 7FA22E7A1C0A74AE0015D3D4 /* PBXContainerItemProxy */;
 		};
 		7FB1BEBC1C0AFFE200227A2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FB1BEAF1C0AFFE200227A2D /* Dose-OSX */;
+			target = 7FB1BEAF1C0AFFE200227A2D /* Dose OSX */;
 			targetProxy = 7FB1BEBB1C0AFFE200227A2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose-iOS" */ = {
+		7FA22E821C0A74AE0015D3D4 /* Build configuration list for PBXNativeTarget "Dose iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FA22E831C0A74AE0015D3D4 /* Debug */,
@@ -707,13 +707,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FB1BEC11C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSX" */ = {
+		7FB1BEC11C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FB1BEC21C0AFFE200227A2D /* Debug */,
 				7FB1BEC31C0AFFE200227A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FB1BEC41C0AFFE200227A2D /* Build configuration list for PBXNativeTarget "Dose-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -722,6 +723,7 @@
 				7FB1BEC61C0AFFE200227A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

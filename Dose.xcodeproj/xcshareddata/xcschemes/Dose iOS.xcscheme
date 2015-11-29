@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
                BuildableName = "Dose.framework"
-               BlueprintName = "Dose-iOS"
+               BlueprintName = "Dose iOS"
                ReferencedContainer = "container:Dose.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
             BuildableName = "Dose.framework"
-            BlueprintName = "Dose-iOS"
+            BlueprintName = "Dose iOS"
             ReferencedContainer = "container:Dose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
             BuildableName = "Dose.framework"
-            BlueprintName = "Dose-iOS"
+            BlueprintName = "Dose iOS"
             ReferencedContainer = "container:Dose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,7 +85,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
             BuildableName = "Dose.framework"
-            BlueprintName = "Dose-iOS"
+            BlueprintName = "Dose iOS"
             ReferencedContainer = "container:Dose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
