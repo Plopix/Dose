@@ -3,11 +3,12 @@
 A Dependency Injection Container for Swift
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-- [![Build Status](https://travis-ci.org/Plopix/Dose.svg?branch=master)](https://travis-ci.org/Plopix/Dose)
+[![Build Status](https://travis-ci.org/Plopix/Dose.svg?branch=master)](https://travis-ci.org/Plopix/Dose)
+[![Licence MIT](https://img.shields.io/badge/Licence-MIT-lightgrey.svg)](https://github.com/Plopix/Dose/blob/master/LICENSE)
+[![Swift 2.1](https://img.shields.io/badge/Swift-2.1-ff9900.svg)](https://developer.apple.com/swift)
+[![Platform](https://img.shields.io/badge/Platform-iOS%7COSX-blue.svg)](https://developer.apple.com)
 
-> Work is still in progress but it works!
-
-> !! ANY HELP WILL BE APPRECIATED !!
+> Some work is still in progress but it works well, any help will be appreciated.
 
 Coming from the PHP world, I used to develop with a lot of frameworks and concepts and one thing I like is the Dependendy Injection Container and Services system of [Symfony2](https://symfony.com/doc/current/book/service_container.html "Symfony2 Service Container")
 
@@ -23,10 +24,14 @@ All must stays simple, my goal was to avoid to always rely on the UIApplication 
 
 ## Key features
 
-* Easy to use
-* Base on a configuration file
-* Lazy loading of services
-* All in Swift
+- [x] Easy to use
+- [x] Parameter Injections
+- [x] Service Injections
+- [x] Closure Injections
+- [x] Providers
+- [x] Base on a configuration file (Plist for now)
+- [x] Lazy loading of services (super important)
+- [x] Pure Swift
 
 ## Why it's cool and powerful
 
@@ -233,14 +238,14 @@ Just call it: Kernel.instance.get("dose.service.name")
 
 ## Providers
 
-* @todo: Documentation
+* @todo: Documentation, you can also read the code in Tests.
 
 ## Todo
 
-* @todo: Review the documentation.
-* @todo: Talked about the included Service, Providers etc...
-* @todo: check the circular references
-* @todo: Improve the plist features: tags? factory? inheritance?, scopes? etc..
+- [ ] Check the circular references
+- [ ] Improve the plist features: tags? factory? inheritance?, scopes? etc..
+- [ ] More documentation
+- [ ] More documentation
 
 
 ## Credits
