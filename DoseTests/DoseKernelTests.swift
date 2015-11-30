@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Plopix. All rights reserved.
 //
 
-import UIKit
 import XCTest
 import Dose
 

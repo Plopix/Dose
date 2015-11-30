@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Plopix. All rights reserved.
 //
 
-import UIKit
 import XCTest
 import Dose
 
@@ -25,7 +24,6 @@ class DoseContainerTests: XCTestCase {
         app["direct1"] = Service1(args:["Non Lazy Bob"])
         app.register(SimpleLoggerProvider(), ["debug_output":true])
         app.register(ExampleServiceProvider())
-        app.register(SimpleDeviceInformationProvider())
         
         app.attach("lazy2") { (container: Container) -> Any? in
             return Service1(args:["Lazy Bob hyper styly"])

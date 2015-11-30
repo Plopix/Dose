@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
+               BlueprintIdentifier = "7FB1BEAF1C0AFFE200227A2D"
                BuildableName = "Dose.framework"
-               BlueprintName = "Dose"
+               BlueprintName = "Dose OSX"
                ReferencedContainer = "container:Dose.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,16 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7FA22E771C0A74AE0015D3D4"
-               BuildableName = "DoseTests.xctest"
-               BlueprintName = "DoseTests"
+               BlueprintIdentifier = "7FB1BEB81C0AFFE200227A2D"
+               BuildableName = "Dose-OSXTests.xctest"
+               BlueprintName = "Dose-OSXTests"
                ReferencedContainer = "container:Dose.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
+            BlueprintIdentifier = "7FB1BEAF1C0AFFE200227A2D"
             BuildableName = "Dose.framework"
-            BlueprintName = "Dose"
+            BlueprintName = "Dose OSX"
             ReferencedContainer = "container:Dose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
+            BlueprintIdentifier = "7FB1BEAF1C0AFFE200227A2D"
             BuildableName = "Dose.framework"
-            BlueprintName = "Dose"
+            BlueprintName = "Dose OSX"
             ReferencedContainer = "container:Dose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7FA22E6D1C0A74AE0015D3D4"
+            BlueprintIdentifier = "7FB1BEAF1C0AFFE200227A2D"
             BuildableName = "Dose.framework"
-            BlueprintName = "Dose"
+            BlueprintName = "Dose OSX"
             ReferencedContainer = "container:Dose.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
