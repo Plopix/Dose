@@ -40,7 +40,7 @@ public class SimpleLogger : LoggerProtocol {
     - parameter file:     File
     - parameter line:     Line
     */
-    public func verbose(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
+    public func verbose(message: String, function: String = #function, file: String = #file, line: Int = #line) {
         if (debug_enabled) {
             print("V: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
@@ -54,7 +54,7 @@ public class SimpleLogger : LoggerProtocol {
     - parameter file:     File
     - parameter line:     Line
     */
-    public func debug(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
+    public func debug(message: String, function: String = #function, file: String = #file, line: Int = #line) {
         if (debug_enabled) {
             print("D: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
@@ -69,7 +69,7 @@ public class SimpleLogger : LoggerProtocol {
     - parameter file:     File
     - parameter line:     Line
     */
-    public func info(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
+    public func info(message: String, function: String = #function, file: String = #file, line: Int = #line) {
         if (debug_enabled) {
             print("I: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
@@ -84,7 +84,7 @@ public class SimpleLogger : LoggerProtocol {
     - parameter file:     File
     - parameter line:     Line
     */
-    public func warning(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
+    public func warning(message: String, function: String = #function, file: String = #file, line: Int = #line) {
         if (debug_enabled) {
             print("W: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
@@ -99,7 +99,7 @@ public class SimpleLogger : LoggerProtocol {
     - parameter file:     File
     - parameter line:     Line
     */
-    public func error(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
+    public func error(message: String, function: String = #function, file: String = #file, line: Int = #line) {
         if (debug_enabled) {
             print("E: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
@@ -114,7 +114,7 @@ public class SimpleLogger : LoggerProtocol {
     - parameter file:     File
     - parameter line:     Line
     */
-    public func severe(message: String, function: String = __FUNCTION__, file: String = __FILE__, line: Int = __LINE__) {
+    public func severe(message: String, function: String = #function, file: String = #file, line: Int = #line) {
         if (debug_enabled) {
             print("S: \"\(message)\" (File: \(file), Function: \(function), Line: \(line))")
         }
