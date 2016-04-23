@@ -2,7 +2,7 @@ language: objective-c
 
 xcode_project: Dose.xcodeproj
 xcode_scheme: [ 'Dose iOS', 'Dose OSX' ]
-osx_image: xcode7.1
+osx_image: xcode7.2
 xcode_sdk: [macosx10.11, iphonesimulator9.1 ]
 
 matrix:
