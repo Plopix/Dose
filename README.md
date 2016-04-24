@@ -5,7 +5,7 @@ A Dependency Injection Container for Swift
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/Plopix/Dose.svg?branch=master)](https://travis-ci.org/Plopix/Dose)
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-lightgrey.svg)](https://github.com/Plopix/Dose/blob/master/LICENSE)
-[![Swift 2.1](https://img.shields.io/badge/Swift-2.1-ff9900.svg)](https://developer.apple.com/swift)
+[![Swift 2.2](https://img.shields.io/badge/Swift-2.2-ff9900.svg)](https://developer.apple.com/swift)
 [![Platform](https://img.shields.io/badge/Platform-iOS%7COSX-blue.svg)](https://developer.apple.com)
 
 > Some work is still in progress but it works well, any help will be appreciated.
