@@ -197,7 +197,7 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		7FB1BE961C0AFD7700227A2D /* Source */ = {
+		7FB1BE961C0AFD7700227A2D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				7FB1BE971C0AFD7700227A2D /* Container.swift */,
@@ -207,14 +207,14 @@
 				7FB1BE9C1C0AFD7700227A2D /* ServiceProviderProtocol.swift */,
 				7F54168B1CCB5112002B3F7B /* Package.swift */,
 			);
-			name = Source;
-			path = ../Source;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		7FF133801C0BE2D800E458C8 /* Dose */ = {
 			isa = PBXGroup;
 			children = (
-				7FB1BE961C0AFD7700227A2D /* Source */,
+				7FB1BE961C0AFD7700227A2D /* Sources */,
 				7FB1BE991C0AFD7700227A2D /* Info.plist */,
 			);
 			path = Dose;
